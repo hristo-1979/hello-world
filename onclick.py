@@ -1,3 +1,4 @@
 def onclick():
-    label1.configure(text="You Clicked Me!")
+    text_pass.configure(text="You Clicked Me!")
+    return text_pass
 
