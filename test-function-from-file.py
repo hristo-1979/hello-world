@@ -2,9 +2,7 @@ import tkinter as tk
 from onclick import onclick
 
 def onclick_local():
-    text_pass = label1.cget("text")
-    onclick(text_pass)
-    label1.configure(text="onclick(text_pass)")
+    label1.configure(text=onclick(label1.cget("text")))
 
 window = tk.Tk()
 window.geometry("450x350")

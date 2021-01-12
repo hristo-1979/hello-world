@@ -1,4 +1,4 @@
-def onclick():
-    text_pass.configure(text="You Clicked Me!")
+def onclick(text_pass):
+    text_pass = "You Clicked Me!"
     return text_pass
 
