@@ -1,11 +1,14 @@
 import tkinter as tk
 from onclick import onclick
 
+
 def onclick_local():
     label1.configure(text=onclick(label1.cget("text")))
 
+
 def btn2_click():
     label1.configure(text="result")
+
 
 window = tk.Tk()
 window.geometry("450x350")
